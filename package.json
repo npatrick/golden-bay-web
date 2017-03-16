@@ -1,0 +1,23 @@
+{
+  "name": "golden-bay-web",
+  "version": "1.0.0",
+  "description": "Source code of Golden Bay Health and Staffing Services, LLC",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npatrick/golden-bay-web.git"
+  },
+  "author": "Neil Romana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npatrick/golden-bay-web/issues"
+  },
+  "homepage": "https://github.com/npatrick/golden-bay-web#readme"
+}
