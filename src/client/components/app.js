@@ -3,6 +3,7 @@ import Navigation from './navigation';
 import Home from './home';
 import Services from './services';
 import Work	from './work';
+import Client from './client';
 
 export default class App extends Component {
  render() {
@@ -12,6 +13,7 @@ export default class App extends Component {
 				<Home />
 				<Services />
 				<Work />
+				<Client />
 			</div>
 		)
 	}
