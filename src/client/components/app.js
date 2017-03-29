@@ -4,6 +4,7 @@ import Home from './home';
 import Services from './services';
 import Work	from './work';
 import Client from './client';
+import Team from './team';
 
 export default class App extends Component {
  render() {
