@@ -29,38 +29,38 @@ const Work = () => {
            
             <li className="mix category_1">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/1.jpg" data-gal="prettyPhoto" title="Something we did for a client. They liked it very much."><img src="images/thumbnails/1.jpg" alt="Look at that glass" /></a>
+                <a href="assets/images/work/1.jpg" data-gal="prettyPhoto" title="Something we did for a client. They liked it very much."><img src="assets/images/thumbnails/1.jpg" alt="Look at that glass" /></a>
               </div>
             </li>
 
             <li className="mix category_2">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/2.jpg" data-gal="prettyPhoto" title="That's a nice view. Won't you agree?"><img src="images/thumbnails/2.jpg" alt="View the Sunshine" /></a>
+                <a href="assets/images/work/2.jpg" data-gal="prettyPhoto" title="That's a nice view. Won't you agree?"><img src="assets/images/thumbnails/2.jpg" alt="View the Sunshine" /></a>
               </div>
             </li>
             <li className="mix category_1">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/3.jpg" data-gal="prettyPhoto" title="That is a good laptop."><img src="images/thumbnails/3.jpg" alt="A good computer" /></a>
+                <a href="assets/images/work/3.jpg" data-gal="prettyPhoto" title="That is a good laptop."><img src="assets/images/thumbnails/3.jpg" alt="A good computer" /></a>
               </div>
             </li>
             <li className="mix category_2">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/4.jpg" data-gal="prettyPhoto" title="Interface we designed."><img src="images/thumbnails/4.jpg" alt="A beautiful UI" /></a>
+                <a href="assets/images/work/4.jpg" data-gal="prettyPhoto" title="Interface we designed."><img src="assets/images/thumbnails/4.jpg" alt="A beautiful UI" /></a>
               </div>
             </li>
             <li className="mix category_3">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/5.jpg" data-gal="prettyPhoto" title="Can you spot the bird? Image is search engine optimized!"><img src="images/thumbnails/5.jpg" alt="Spot the bird" /></a>
+                <a href="assets/images/work/5.jpg" data-gal="prettyPhoto" title="Can you spot the bird? Image is search engine optimized!"><img src="assets/images/thumbnails/5.jpg" alt="Spot the bird" /></a>
               </div>
             </li>
             <li className="mix category_4">
 	            <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="images/work/6.jpg" data-gal="prettyPhoto" title="Sound advice."><img src="images/thumbnails/6.jpg" alt="Advice" /></a>
+                <a href="assets/images/work/6.jpg" data-gal="prettyPhoto" title="Sound advice."><img src="assets/images/thumbnails/6.jpg" alt="Advice" /></a>
               </div>
             </li>
             <li className="mix category_2">
 	            <div className="col-xs-12 col-sm-6 col-md-3">
-              	<a href="images/stripes.png" data-gal="prettyPhoto" title="I don't know who put this picture here!"><img src="images/stripes.png" alt="Who done this?" /></a>
+              	<a href="assets/images/stripes.png" data-gal="prettyPhoto" title="I don't know who put this picture here!"><img src="assets/images/stripes.png" alt="Who done this?" /></a>
 	            </div>
             </li>
           </ul>

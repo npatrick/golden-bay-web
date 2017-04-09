@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
 	const bgImage = [
-		{backgroundImage: url('images/team-1.jpg')},
-		{backgroundImage: url('images/team-4.jpg')},
-		{backgroundImage: url('images/team-2.jpg')},
-		{backgroundImage: url('images/team-3.jpg')}
+		{backgroundImage: "url('assets/images/team-1.jpg')"},
+		{backgroundImage: "url('assets/images/team-4.jpg')"},
+		{backgroundImage: "url('assets/images/team-2.jpg')"},
+		{backgroundImage: "url('assets/images/team-3.jpg')"}
 	]
 
 	return (

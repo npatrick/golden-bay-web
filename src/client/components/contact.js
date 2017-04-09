@@ -32,20 +32,49 @@ const Contact = () => {
                   <textarea className="form-control" rows="8" name="message" id="message" placeholder="Message"></textarea>
                 </div>
                 <div className="form-group">
-                  <div className="checkbox">
-                    <label>
-                      <input type="checkbox" value="1" name="newsletter" id="newsletter" checkedStyle="float: none;" />
-                      Also sign me up for the awesome Sunshine newsletter!
-                    </label>
-                  </div>
-                </div>
-                <div className="form-group">
                   <a className="btn btn-orange btn-half-block" id="submit-contact-form">Send</a>
                 </div>
               </form>
 
-              <div className="alert alert-success alert-small" id="contact-success" style="display: none;"><i className="ion-checkmark-round"></i> <span>Message sent.</span></div>
-              <div className="alert alert-danger alert-small" id="contact-error" style="display: none;"><i className="ion-close-round"></i> <span>Something is not working. Please try again.</span></div>
+              <div className="alert alert-success alert-small" id="contact-success"><i className="ion-checkmark-round"></i> <span>Message sent.</span></div>
+              <div className="alert alert-danger alert-small" id="contact-error"><i className="ion-close-round"></i> <span>Something is not working. Please try again.</span></div>
+              <div class="option col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+                <div class="media">
+                    <i class="pull-left ion-ios7-location-outline fa-2x text-muted"></i>
+                    <div class="media-body">
+                        <address>
+                            <strong>Sunshine Theme, Inc.</strong><br>
+                            0 Solar System, Suite 001<br>
+                            Galaxy, UV 94107
+                        </address>
+                    </div>
+                </div>
+                <div class="media">
+                    <i class="pull-left ion-ios7-telephone-outline fa-2x text-muted"></i>
+                    <div class="media-body">
+                        (123) 456-7890
+                    </div>
+                </div>
+                <div class="media">
+                    <i class="pull-left ion-ios7-email-outline fa-2x text-muted"></i>
+                    <div class="media-body">
+                        <a>info@sunshine.theme</a>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <hr>
+                        <ul class="list-inline">
+                            <li><a><i class="ion-social-twitter fa-2x"></i></a></li>
+                            <li><a><i class="ion-social-facebook fa-2x"></i></a></li>
+                            <li><a><i class="ion-social-linkedin fa-2x"></i></a></li>
+                            <li><a><i class="ion-social-googleplus fa-2x"></i></a></li>
+                            <li><a><i class="ion-social-dribbble fa-2x"></i></a></li>
+                            <li><a><i class="ion-social-github fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             </div>
 
           </div>
