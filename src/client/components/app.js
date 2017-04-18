@@ -12,7 +12,7 @@ import Footer from './footer';
 export default class App extends Component {
  render() {
 		return (
-			<div>
+			<div id="page">
 				<Navigation />
 				<Home />
 				<About />

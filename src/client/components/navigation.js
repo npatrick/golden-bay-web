@@ -13,7 +13,7 @@ export default class Navigation extends Component {
 
         <div className="collapse navbar-collapse" id="navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
-            <li><a href="#header" className="scroll">Home</a></li>
+            <li><a href="#home" className="scroll">Home</a></li>
             <li><a href="#about" className="scroll">About Us</a></li>
             <li><a href="#services" className="scroll">Services</a></li>
             <li><a href="#work" className="scroll">Work</a></li>
