@@ -1,8 +1,14 @@
 import React from 'react';
 
 const Home = () => {
+  const homeStyle = {
+    "height": "1000px",
+    "padding-top": "3.4%",
+    "margin-bottom": "-30px"
+  };
+
 	return (
-    <section id="home">
+    <section id="home" style={homeStyle}>
 			<header id="header">
 	      <div className="container">
           <div className="row">
