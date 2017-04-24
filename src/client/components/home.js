@@ -3,8 +3,8 @@ import React from 'react';
 const Home = () => {
   const homeStyle = {
     "height": "1000px",
-    "padding-top": "3.4%",
-    "margin-bottom": "-30px"
+    "paddingTop": "3.4%",
+    "marginBottom": "-30px"
   };
 
 	return (
