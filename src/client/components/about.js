@@ -21,7 +21,7 @@ const About = () => {
           <div className="article col-xs-12 col-sm-4">
             <i className="ion-pinpoint fa-2x orange"></i>
             <h3>Motivation</h3>
-            <p>Sunshine is made for designers by designers. Everyone is a designer about something, whether it's music, food, or science fiction. Sometimes you just need the right space to explore it. Whatever you're into, we help you get into it.</p>
+            <p>Our primary goal is to help you and your loved ones feel more comfortable, enjoy the best quality of life, and maintain a familiar and comfortable lifestyle whether you choose a facility or your own home. By providing a compassionate, caring, and dependable Care Provider(s), we assure our valuable clients the peace of mind they deserve.</p>
           </div>
         </div>
         <div id="facts" className="carousel slide hidden-xs">
