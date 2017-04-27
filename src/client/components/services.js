@@ -45,6 +45,15 @@ const Services = () => {
               <li>Placement Assistance</li>
             </ul>
           </div>
+          <div className="article col-xs-12 col-sm-3">
+            <i className="ion-ios7-people fa-2x orange"></i>
+            <h3>Detailed Screening</h3>
+            <ul className="list-unstyled">
+              <li>Credential Checks</li>
+              <li>DOJ Clearance</li>
+              <li>All employees are hired, managed, and paid by Golden Bay</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
