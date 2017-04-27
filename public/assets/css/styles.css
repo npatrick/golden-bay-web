@@ -218,7 +218,7 @@ a:hover {
 #header {
     overflow: hidden;
     height: auto;
-    background: url('../images/home.jpg') fixed no-repeat;
+    background: url('../images/homeAlt2.jpg') fixed no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
