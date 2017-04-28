@@ -10,17 +10,17 @@ const Work = () => {
         <div className="row">
 	        <div className="desc col-xs-12 col-sm-6 col-sm-offset-3">
             <h2>Our Work, Our Pride.</h2>
-            <p>Below is a collection of things which we have build. Each one made our client happy and made us proud.</p>
+            <p>Below is a collection of things which we happily provide. Each one made our client happy and made us proud.</p>
 	        </div>
         </div>
 
         <div className="row">
 	        <ul className="list-inline" id="filters">
             <li className="filter active" data-filter="all"><i className="ion-ios7-keypad"></i> Show All</li>
-            <li className="filter" data-filter="category_1"><i className="ion-ios7-heart"></i> UX</li>
-            <li className="filter" data-filter="category_2"><i className="ion-eye"></i> Design</li>
-            <li className="filter" data-filter="category_3"><i className="ion-search"></i> SEO</li>
-            <li className="filter" data-filter="category_4"><i className="ion-ios7-people"></i> Social</li>
+            <li className="filter" data-filter="category_1"><i className="ion-ios7-heart"></i> Live-In Care</li>
+            <li className="filter" data-filter="category_2"><i className="ion-eye"></i> Respite Care</li>
+            <li className="filter" data-filter="category_3"><i className="ion-search"></i> Transportation</li>
+            <li className="filter" data-filter="category_4"><i className="ion-ios7-people"></i> Detailed Screening</li>
 	        </ul>
         </div>
 
