@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Services = () => {
+  // services need a bg img of about 1400x921 or 1110x549
 	return (
 		<section id="services">
       <div className="container">

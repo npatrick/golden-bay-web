@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Team = () => {
+  // Staff images
 	const bgImage = [
 		{backgroundImage: "url('asset_images_of_staff')"},
 		{backgroundImage: "url('asset_images_of_staff')"},

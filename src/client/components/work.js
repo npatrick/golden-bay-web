@@ -60,7 +60,7 @@ const Work = () => {
             </li>
             <li className="mix category_2">
 	            <div className="col-xs-12 col-sm-6 col-md-3">
-              	<a href="assets/images/stripes.png" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/stripes.png" alt="fill_in_for_best_practices" /></a>
+              	<a href="assets/images/stripes.png" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
 	            </div>
             </li>
           </ul>
