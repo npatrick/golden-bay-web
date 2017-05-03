@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Navigation extends Component {
+  // need to add company logo
 	render() {
 		return (
       <nav id="top-navigation" className="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Home = () => {
+  // need to add company logo
   const homeStyle = {
     "height": "1000px",
     "paddingTop": "3.4%",

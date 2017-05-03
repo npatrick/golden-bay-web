@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Team = () => {
-  // Staff images
+  // Staff images about 350x400
 	const bgImage = [
 		{backgroundImage: "url('asset_images_of_staff')"},
 		{backgroundImage: "url('asset_images_of_staff')"},
