@@ -26,7 +26,7 @@ const Home = () => {
               <p>Affordable solution for non-medical quality In-Home Care.</p>
               <br />
               <a href="#about" className="btn btn-transparent scroll"><strong>LEARN MORE</strong></a>
-              <a href="#about" className="btn btn-link btn-white scroll">See Our Rates <i className="fa fa-angle-right"></i></a>
+              <a href="#services" className="btn btn-link btn-white scroll">See Our Rates <i className="fa fa-angle-right"></i></a>
             </div>
           </div>
 	      </div>
