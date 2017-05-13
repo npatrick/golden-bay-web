@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="row">
             <div className="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
               <h2>We'd <i className="ion-ios7-heart-outline"></i> to help!</h2>
-              <p>We like to make quality care accessible and a reality for everyone. Feel free to say hello! And also <a>connect with us</a>.</p>
+              <p>We like to make quality care accessible and a reality for everyone. Feel free to say hello! And also connect with us.</p>
             </div>
           </div>
 
