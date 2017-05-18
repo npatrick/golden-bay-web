@@ -333,6 +333,18 @@ a:hover {
 #services .article ul li:last-child {
     margin-bottom: 30px;
 }
+
+#prices {
+    padding-bottom: 20px;
+    background-color: rgba(237, 147, 30, 0.72);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(160, 140, 120, 1);
+}
+
+#prices ul {
+    list-style: none;
+}
 /* END: SERVICES SECTION*/
 
 /* START: WORK SECTION*/
