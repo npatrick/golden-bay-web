@@ -58,13 +58,13 @@ const Services = () => {
           <div id="prices" className="desc col-xs-12 col-sm-6 col-sm-offset-3">
             <i className="ion-ios7-people fa-2x orange"></i>
             <h2>In Home Care Rates</h2>
-            <div className="article col-xs-12 col-sm-6">
+            <div className="col-xs-12 col-sm-6">
               <ul className="list-unstyled">
                 <li><h3>Hourly (Live-Out)</h3></li>
                 <li><h3>$24.00 and Up Per Hour</h3></li>
               </ul>
             </div>
-            <div className="article col-xs-12 col-sm-6">
+            <div className="col-xs-12 col-sm-6">
               <ul className="list-unstyled">
                 <li><h3>Residing (Live-In)</h3></li>
                 <li><h3>$235.00  and Up Per Day</h3></li>
