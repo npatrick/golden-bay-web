@@ -338,6 +338,10 @@ a:hover {
     padding-bottom: 20px;
 }
 
+#prices h2 {
+    font-weight: bold;
+}
+
 #prices h3 {
     font-weight: normal;
 }
