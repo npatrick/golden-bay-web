@@ -351,8 +351,13 @@ a:hover {
 /*    border-radius: 4px;*/
 /*    border: 1px solid rgba(160, 140, 120, 1);*/
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-bottom: 30px;
+}
+
+#callbox {
+    border: 1px solid black;
+    border-radius: 4px;
 }
 /* END: SERVICES SECTION*/
 

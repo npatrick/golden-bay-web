@@ -57,18 +57,15 @@ const Services = () => {
           </div>
           <div id="prices" className="desc col-xs-12 col-sm-6 col-sm-offset-3">
             <i className="ion-ios7-people fa-2x orange"></i>
-            <h2>In Home Care Rates</h2>
-            <div className="col-xs-12 col-sm-6">
+            <h2>Flexible Pricing</h2>
+            <div className="col-xs-12 col-sm-12">
               <ul className="list-unstyled">
-                <li><h3>Hourly (Live-Out)</h3></li>
-                <li><h3>$24.00 and Up Per Hour</h3></li>
+                <li><h4>Different options are available</h4></li>
+                <li><h4>for hourly (live-out) or residing (live-in)</h4></li>
               </ul>
-            </div>
-            <div className="col-xs-12 col-sm-6">
-              <ul className="list-unstyled">
-                <li><h3>Residing (Live-In)</h3></li>
-                <li><h3>$235.00  and Up Per Day</h3></li>
-              </ul>
+              <div id="callbox" className="col-xs-12 col-sm-12">
+                <h3>Call us at (310) 328-4541</h3>
+              </div>
             </div>
           </div>
         </div>
