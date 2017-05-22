@@ -9,8 +9,8 @@ const Clients = () => {
             <p className="fancy"><span>Clients</span></p>
           </div>
           <div className="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
-            <h2>(Heading for client review of GB)</h2>
-            <p>Brief description of excellent services that GB provides</p>
+            <h2>People love Golden Bay Health.</h2>
+            <p>Here's some of what our clients have to say about the services and care that we provide</p>
           </div>
         </div>
 
