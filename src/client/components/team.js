@@ -18,7 +18,7 @@ const Team = () => {
           </div>
           <div className="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
             <h2>Meat the Team.</h2>
-            <p>Brief description of the team.</p>
+            <p>Here at Golden Bay, we give our best to build a fulfilling and comfortable living environment. Whether that could be in their own homes or at an in-home senior care.</p>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ const Team = () => {
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
             <div className="info">
               <h4>We are hiring!</h4>
-              <p>We're always looking for an excellent caregiver. So, give us a call at (310) 328-4541</p>
+              <p>We're always looking for a passionate and excellent caregiver. So, give us a call at (310) 328-4541</p>
               <ul className="list-inline">
                 <li><i className="ion-ios7-plus-empty text-muted" style={{fontSize: '200px'}}></i></li>
               </ul>
