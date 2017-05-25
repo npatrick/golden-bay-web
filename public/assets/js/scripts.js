@@ -57,10 +57,12 @@ $('#submit-contact-form').click( function() {
 
     var data_string = $('#contact-form').serialize();
 
+    console.log('THIS GOT CLICKED BY THE SEND BTN');
+
     if (error == false) {
         $.ajax({
             type: "POST",
-            url: "send_message.php",
+            url: "/send_message",
             data: data_string,
             timeout: 6000,
             error: function(request,error) {
