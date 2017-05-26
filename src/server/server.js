@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../../public/')));
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../../public/')));
 
-app.post('/send_email', (req, res) => {
+app.post('/send_message', (req, res) => {
 	console.log('POST INCOMING: ', req.body);
 	let name = req.body.name;
 	let emailAddress = req.body.email;

@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Contact = () => {
-  const sending = function() {
+  const sending = function(event) {
+
+    event.preventDefault();
+
     var error = false;
 
     var name = $('#name').val();
@@ -41,9 +44,8 @@ const Contact = () => {
 
     var data_string = $('#contact-form').serialize();
 
-    console.log('THIS GOT CLICKED BY THE SEND BTN');
-
     if (error == false) {
+        console.log('BEFORE AJAX -- data_string is: ', data_string);
         $.ajax({
             type: "POST",
             url: "/send_message",
@@ -58,6 +60,7 @@ const Contact = () => {
                     }, 10000);
                 }
                 else {
+                  console.log('POST ERROR INFO: ', error);
                     $('#contact-error').slideDown('slow');
                     $('#contact-error span').text('Something is not working. Please try again.');
                     setTimeout(function() {
