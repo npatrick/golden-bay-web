@@ -4,6 +4,7 @@
   "description": "Source code of Golden Bay Health and Staffing Services, LLC",
   "main": "./src/client/index.js",
   "dependencies": {
+    "babel-core": "^6.24.1",
     "babel-loader": "^6.4.0",
     "body-parser": "^1.17.1",
     "css-loader": "^0.27.3",
