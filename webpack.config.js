@@ -1,12 +1,24 @@
 const path = require('path');
+const webpack = require('webpack'); //to access built-in plugins
 
 module.exports = {
-	entry: './src/client/index.js',
+	devtool: 'source-map',
+	entry: [
+		'./src/client/index.js'
+	],
 	output: {
 		path: __dirname + '/public',
-		publicPath: '/assets/',
+		publicPath: '/public/',
 		filename: 'bundle.js'
 	},
+	plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compress: {
+        warnings: false
+      }
+    })
+	],
 	module: {
 		loaders: [
 			{
