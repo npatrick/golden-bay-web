@@ -11,24 +11,24 @@ import Footer from './footer.react.jsx';
 import ComingSoon from './comingSoon.react.jsx';
 
 export default class App extends Component {
- // render() {
-	// 	return (
-	// 		<div id="page">
-	// 			<Navigation />
-	// 			<Home />
-	// 			<About />
-	// 			<Services />
-	// 			<Work />
-	// 			<Client />
-	// 			<Team />
-	// 			<Contact />
-	// 			<Footer />
-	// 		</div>
-	// 	)
-	// }
-	render() {
+ render() {
 		return (
-			<ComingSoon />
+			<div id="page">
+				<Navigation />
+				<Home />
+				<About />
+				<Services />
+				<Work />
+				<Client />
+				<Team />
+				<Contact />
+				<Footer />
+			</div>
 		)
 	}
+	// render() {
+	// 	return (
+	// 		<ComingSoon />
+	// 	)
+	// }
 };
