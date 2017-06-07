@@ -345,7 +345,8 @@ a:hover {
 }
 
 #prices h3 {
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 27px;
 }
 
 #prices ul {
@@ -360,6 +361,7 @@ a:hover {
 #callbox {
     border: 1px solid black;
     border-radius: 4px;
+    padding-bottom: 5px;
 }
 /* END: SERVICES SECTION*/
 

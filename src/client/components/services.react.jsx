@@ -57,7 +57,7 @@ const Services = () => {
           </div>
           <div id="prices" className="desc col-xs-12 col-sm-6 col-sm-offset-3">
             <i className="ion-ios7-people fa-2x orange"></i>
-            <h2>Flexible Pricing</h2>
+            <h3>Flexible Pricing</h3>
             <div className="col-xs-12 col-sm-12">
               <ul className="list-unstyled">
                 <li><h4>Different options are available</h4></li>
