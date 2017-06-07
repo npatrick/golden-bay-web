@@ -29,38 +29,38 @@ const Work = () => {
            
             <li className="mix category_1">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/1.jpg" data-gal="prettyPhoto" title="Something we did for a client. They liked it very much."><img src="asset_files_to_fill_in" alt="fill_in" /></a>
+                <a href="assets/images/work/palos-verdes-01.jpg" data-gal="prettyPhoto" title="Something we did for a client. They liked it very much."><img src="assets/images/thumbnails/palos-verdes-01.jpg" alt="fill_in" /></a>
               </div>
             </li>
 
             <li className="mix category_2">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/2.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+                <a href="assets/images/work/palos-verdes-08.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-08.jpg" alt="fill_in_for_best_practices" /></a>
               </div>
             </li>
             <li className="mix category_1">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/3.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+                <a href="assets/images/work/palos-verdes-07.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-07.jpg" alt="fill_in_for_best_practices" /></a>
               </div>
             </li>
-            <li className="mix category_2">
+            <li className="mix category_1">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/4.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+                <a href="assets/images/work/palos-verdes-03.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-03.jpg" alt="fill_in_for_best_practices" /></a>
               </div>
             </li>
             <li className="mix category_3">
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/5.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+                <a href="assets/images/work/palos-verdes-14.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-14.jpg" alt="fill_in_for_best_practices" /></a>
               </div>
             </li>
             <li className="mix category_4">
 	            <div className="col-xs-12 col-sm-6 col-md-3">
-                <a href="assets/images/work/6.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+                <a href="assets/images/work/palos-verdes-02.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-02.jpg" alt="fill_in_for_best_practices" /></a>
               </div>
             </li>
             <li className="mix category_2">
 	            <div className="col-xs-12 col-sm-6 col-md-3">
-              	<a href="assets/images/stripes.png" data-gal="prettyPhoto" title="Fill_in"><img src="asset_files_to_fill_in" alt="fill_in_for_best_practices" /></a>
+              	<a href="assets/images/work/palos-verdes-10.jpg" data-gal="prettyPhoto" title="Fill_in"><img src="assets/images/thumbnails/palos-verdes-10.jpg" alt="fill_in_for_best_practices" /></a>
 	            </div>
             </li>
           </ul>
