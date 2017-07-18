@@ -19,9 +19,34 @@ app.post('/send_message', (req, res) => {
 	console.log('POST INCOMING: ', req.body);
 	let name = req.body.name;
 	let emailAddress = req.body.email;
+	let subject = 'GB Website Email';
 	let msg = req.body.message;
 
 	// code the execution of receiving the post request
+	getOAuth2Client(function(err, oauth2Client) {
+	  if (err) {
+	    console.log('err:', err);
+	    res.status(500).send('Internal Server Error');
+	  } else {
+	    sendMail(name, emailaddress, subject, msg, oauth2Client, function(err, results) {
+	      if (err) {
+	        console.log('err: ', err);
+	      } else {
+	      	console.log('SERVER SIDE RESULT: ', results);
+	        res.status(200).send('Sent!');
+	      }
+	    });
+	  }
+	});
+
+	// let createMessage = (sender, to, subject, messageText) => {
+	// 	let message = MIMEText(messageText)
+	// 	message['to'] = to
+	// 	message['from'] = sender
+	// 	message['subject'] = subject
+	// 	return {'raw': base64.urlsafe_b64encode(message.as_string())
+	// }
+	
 });
 
 app.listen(PORT, () => console.log('Listening on PORT ' + PORT + '!'));
