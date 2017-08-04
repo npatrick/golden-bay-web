@@ -11,3 +11,6 @@ node_modules
 # Webpack Output
 public/bundle.js
 public/bundle.js.map
+
+# API
+client_secret.json
