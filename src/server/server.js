@@ -12,11 +12,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
 app.use(express.static(path.join(__dirname, '../../public/')));
-
-// app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../../public/')));
-
 
 app.post('/send_message', (req, res) => {
 	console.log('POST INCOMING: ', req.body);
@@ -31,7 +27,7 @@ app.post('/send_message', (req, res) => {
 	    console.log('err:', err);
 	    res.status(500).send('Internal Server Error');
 	  } else {
-	    sendMail(name, emailaddress, subject, msg, oauth2Client, function(err, results) {
+	    sendMail(name, emailAddress, subject, msg, oauth2Client, function(err, results) {
 	      if (err) {
 	        console.log('err: ', err);
 	      } else {
@@ -41,15 +37,6 @@ app.post('/send_message', (req, res) => {
 	    });
 	  }
 	});
-
-	// let createMessage = (sender, to, subject, messageText) => {
-	// 	let message = MIMEText(messageText)
-	// 	message['to'] = to
-	// 	message['from'] = sender
-	// 	message['subject'] = subject
-	// 	return {'raw': base64.urlsafe_b64encode(message.as_string())
-	// }
-	
 });
 
 app.listen(PORT, () => console.log('Listening on PORT ' + PORT + '!'));
