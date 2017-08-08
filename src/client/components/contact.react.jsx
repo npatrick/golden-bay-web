@@ -22,10 +22,10 @@ const Contact = () => {
             <div className="option col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1">
               <form role="form" id="contact-form">
                 <div className="form-group">
-                  <input type="text" className="form-control" name="name" id="name" placeholder="Name" />
+                  <input type="text" className="form-control" name="name" id="name" placeholder="Name (required)" />
                 </div>
                 <div className="form-group">
-                  <input type="email" className="form-control" name="email" id="email" placeholder="Email" />
+                  <input type="email" className="form-control" name="email" id="email" placeholder="Email (required)" />
                 </div>
                 <div className="form-group">
                   <textarea className="form-control" rows="8" name="message" id="message" placeholder="Message"></textarea>
