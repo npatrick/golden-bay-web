@@ -31,6 +31,7 @@ section {
 
 p {
     line-height: 28px;
+    font-size: 18px;
 }
 
 a, a:focus, a:active {
@@ -330,6 +331,7 @@ a:hover {
 
 #services .article ul li {
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 #services .article ul li:last-child {
