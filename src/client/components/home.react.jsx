@@ -14,7 +14,7 @@ const Home = () => {
 	      <div className="container">
           <div className="row">
             <div className="col-xs-10 col-xs-offset-1 col-sm-5" id="intro">
-              <h1><i className="fa fa-sun-o logo-circled"></i> <strong>Golden Bay</strong> Health & Staffing Services</h1>
+              <h1><img src="assets/images/thumbnails/tn-gb-logo.png" /> <strong>Golden Bay</strong> Health & Staffing Services</h1>
               <br />
 
               <div className="ticker">

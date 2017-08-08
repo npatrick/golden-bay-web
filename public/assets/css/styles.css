@@ -228,13 +228,14 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    margin-top: -1%;
 }
 
 #intro {
     position: absolute;
     top: 25%;
     padding-bottom: 20px;
-    background-color: rgba(160, 140, 120, 0.85);
+    background-color: rgba(160, 140, 120, 0.77);
     color: #fff;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;

@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 
 export default class Navigation extends Component {
-  // need to add company logo
 	render() {
+    const logoStyle = {
+      "width": "6%"
+    };
 		return (
       <nav id="top-navigation" className="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
         <div className="navbar-header">
           <button id="menu-mobile" type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
             <span className="fa fa-bars"></span>
           </button>
-          <a className="navbar-brand scroll" href="#header"><i className="fa fa-sun-o logo-circled"></i> Golden Bay Health, LLC</a>
+          <a className="navbar-brand scroll" href="#header"><img src="assets/images/thumbnails/tn-gb-logo.png" style={logoStyle}/> Golden Bay Health, LLC</a>
         </div>
 
         <div className="collapse navbar-collapse" id="navbar-collapse-1">

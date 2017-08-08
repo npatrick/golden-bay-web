@@ -8,7 +8,7 @@ import Client from './client.react.jsx';
 import Team from './team.react.jsx';
 import Contact from './contact.react.jsx';
 import Footer from './footer.react.jsx';
-import ComingSoon from './comingSoon.react.jsx';
+// import ComingSoon from './comingSoon.react.jsx';
 
 export default class App extends Component {
  render() {
