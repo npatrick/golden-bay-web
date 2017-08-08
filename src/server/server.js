@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const http = require('http');
+const getOAuth2Client = require('./email-handling/getoauth2client.js');
+const sendMail = require('./email-handling/send_email.js');
 
 const PORT = process.env.PORT || 3000;
 
