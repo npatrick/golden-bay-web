@@ -19,7 +19,6 @@ export default class Navigation extends Component {
             <li><a href="#home" className="scroll">Home</a></li>
             <li><a href="#about" className="scroll">About Us</a></li>
             <li><a href="#services" className="scroll">Services</a></li>
-            <li><a href="#work" className="scroll">Work</a></li>
             <li><a href="#clients" className="scroll">Clients</a></li>
             <li><a href="#team" className="scroll">Team</a></li>
             <li><a href="#contact" className="scroll">Contact</a></li>
