@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 /*Switch bg to pattern when ready to release or dev envi*/
 body {
     background-color: #ECF0F1;
-    background: url('../images/pattern.png') fixed;
-    /*background: url('../images/homeAlt2.jpg') fixed;*/
+/*    background: url('../images/pattern.png') fixed;*/
+    background: url('../images/homeAlt2.jpg') fixed;
 }
 
 section {
@@ -541,19 +541,3 @@ a:hover {
     margin: 20px auto;
 }
 /* END: FOOTER SECTION*/
-
-#coming-soon {
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 25%;
-    padding-top: 4%;
-    padding-bottom: 8%;
-    border: 1px solid white;
-    background-color: white;
-    opacity: 0.75;
-    border-radius: 4px;
-}
-
-#coming-soon.container {
-    width: 750px;
-}
