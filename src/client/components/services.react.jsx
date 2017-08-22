@@ -55,16 +55,18 @@ const Services = () => {
               <li>All employees are hired, managed, and paid by Golden Bay</li>
             </ul>
           </div>
-          <div id="prices" className="desc col-xs-12 col-sm-6 col-sm-offset-3">
-            <i className="ion-ios7-people fa-2x orange"></i>
-            <h3>Flexible Pricing</h3>
-            <div className="col-xs-12 col-sm-12">
-              <ul className="list-unstyled">
-                <li><h4>Different options are available</h4></li>
-                <li><h4>for hourly (live-out) or residing (live-in)</h4></li>
-              </ul>
-              <div id="callbox" className="col-xs-12 col-sm-12">
-                <h3>Call us at (310) 328-4541</h3>
+          <div className="row">
+            <div id="prices" className="desc col-xs-12 col-sm-6 col-sm-offset-3">
+              <i className="ion-ios7-people fa-2x orange"></i>
+              <h3>Flexible Pricing</h3>
+              <div className="col-xs-12 col-sm-12">
+                <ul className="list-unstyled">
+                  <li><h4>Different options are available</h4></li>
+                  <li><h4>for hourly (live-out) or residing (live-in)</h4></li>
+                </ul>
+                <div id="callbox" className="col-xs-12 col-sm-12">
+                  <h3>Call us at (310) 328-4541</h3>
+                </div>
               </div>
             </div>
           </div>
