@@ -26,35 +26,31 @@ const Team = () => {
 
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[0]}>
             <div className="info">
-              <h4>Staff_Name</h4>
-              <p>Description of said staff</p>
+              <h4>Glenda Avila</h4>
+              <p>Administrator & Marketing Director</p>
               <ul className="list-inline">
-                <li><a><i className="ion-social-facebook"></i></a></li>
-                <li><a><i className="ion-social-linkedin"></i></a></li>
-                <li><a><i className="ion-social-googleplus"></i></a></li>
+                <li><a href="https://www.facebook.com/glenda.avila.56"><i className="ion-social-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/glenda-avila-1a78aa67"><i className="ion-social-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
 
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[1]}>
             <div className="info">
-              <h4>Staff_Name</h4>
-              <p>Description of said staff</p>
+              <h4>Gabe Parigian</h4>
+              <p>Marketing Coordinator & Placement Specialist</p>
               <ul className="list-inline">
-                <li><a><i className="ion-social-facebook"></i></a></li>
-                <li><a><i className="ion-social-linkedin"></i></a></li>
-                <li><a><i className="ion-social-googleplus"></i></a></li>
+                <li><a href="https://www.facebook.com/gabe.parigian"><i className="ion-social-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/gabe-parigian-38b868b1"><i className="ion-social-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[2]}>
             <div className="info">
-              <h4>Staff_Name</h4>
+              <h4>Alicia Ronquillo</h4>
               <p>Description of said staff.</p>
               <ul className="list-inline">
-                <li><a><i className="ion-social-facebook"></i></a></li>
-                <li><a><i className="ion-social-linkedin"></i></a></li>
-                <li><a><i className="ion-social-googleplus"></i></a></li>
+                <li><a href="https://www.facebook.com/alicia.ronquillo.14"><i className="ion-social-facebook"></i></a></li>
               </ul>
             </div>
           </div>
@@ -63,12 +59,10 @@ const Team = () => {
         <div className="row">
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[3]}>
             <div className="info">
-              <h4>Staff_Name</h4>
+              <h4>Denise Midori</h4>
               <p>Description of said staff</p>
               <ul className="list-inline">
-                <li><a><i className="ion-social-facebook"></i></a></li>
-                <li><a><i className="ion-social-linkedin"></i></a></li>
-                <li><a><i className="ion-social-googleplus"></i></a></li>
+                <li><a href="https://www.facebook.com/denisemido"><i className="ion-social-facebook"></i></a></li>
               </ul>
             </div>
           </div>
