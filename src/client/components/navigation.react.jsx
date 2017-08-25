@@ -11,7 +11,7 @@ export default class Navigation extends Component {
           <button id="menu-mobile" type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
             <span className="fa fa-bars"></span>
           </button>
-          <a className="navbar-brand scroll" href="#header"><img src="assets/images/thumbnails/tn-gb-logo.png" style={logoStyle}/> Golden Bay Health, LLC</a>
+          <a className="navbar-brand scroll" href="#home"><img src="assets/images/thumbnails/tn-gb-logo.png" style={logoStyle}/> Golden Bay Health, LLC</a>
         </div>
 
         <div className="collapse navbar-collapse" id="navbar-collapse-1">
