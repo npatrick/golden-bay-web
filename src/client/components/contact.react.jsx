@@ -65,11 +65,8 @@ const Contact = () => {
                 <div className="media-body">
                   <hr />
                   <ul className="list-inline">
-                    <li><a><i className="ion-social-twitter fa-2x"></i></a></li>
                     <li><a><i className="ion-social-facebook fa-2x"></i></a></li>
                     <li><a><i className="ion-social-linkedin fa-2x"></i></a></li>
-                    <li><a><i className="ion-social-googleplus fa-2x"></i></a></li>
-                    <li><a><i className="ion-social-dribbble fa-2x"></i></a></li>
                   </ul>
                 </div>
               </div>
