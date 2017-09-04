@@ -45,6 +45,7 @@ const Team = () => {
               </ul>
             </div>
           </div>
+
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[2]}>
             <div className="info">
               <h4>Alicia Ronquillo</h4>
@@ -54,9 +55,7 @@ const Team = () => {
               </ul>
             </div>
           </div>
-        </div>
 
-        <div className="row">
           <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[3]}>
             <div className="info">
               <h4>Denise Midori</h4>
@@ -66,17 +65,19 @@ const Team = () => {
               </ul>
             </div>
           </div>
-          <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
-            <div className="info">
-              <h4>We are hiring!</h4>
-              <p>We're always looking for a passionate and excellent caregiver. So, give us a call at <b>(310) 328-4541</b></p>
-              <ul className="list-inline">
-                <li><i className="ion-ios7-plus-empty text-muted" style={{fontSize: '200px'}}></i></li>
-              </ul>
-            </div>
-          </div>
         </div>
 
+        <div className="row">
+          <h4>We are hiring!</h4>
+            <div className="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
+              <div className="info">
+                <p>We're always looking for a passionate and excellent caregiver. So, give us a call at <b>(310) 328-4541</b></p>
+                <ul className="list-inline">
+                  <li><i className="ion-ios7-plus-empty text-muted" style={{fontSize: '200px'}}></i></li>
+                </ul>
+              </div>
+            </div>
+        </div>
 	    </div>
     </section>
 	)
