@@ -22,9 +22,9 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row justify-content-md-center">
 
-          <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[0]}>
+          <div className="person col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0" style={bgImage[0]}>
             <div className="info">
               <h4>Glenda Avila</h4>
               <p>Administrator & Marketing Director</p>
@@ -35,7 +35,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[1]}>
+          <div className="person col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0" style={bgImage[1]}>
             <div className="info">
               <h4>Gabe Parigian</h4>
               <p>Marketing Coordinator & Placement Specialist</p>
@@ -46,7 +46,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[2]}>
+          <div className="person col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0" style={bgImage[2]}>
             <div className="info">
               <h4>Alicia Ronquillo</h4>
               <p>Description of said staff.</p>
@@ -56,7 +56,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style={bgImage[3]}>
+          <div className="person col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0" style={bgImage[3]}>
             <div className="info">
               <h4>Denise Midori</h4>
               <p>Description of said staff</p>
@@ -68,7 +68,7 @@ const Team = () => {
         </div>
 
         <div className="row">
-          <h4>We are hiring!</h4>
+          <h3>We are hiring!</h3>
             <div className="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
               <div className="info">
                 <p>We're always looking for a passionate and excellent caregiver. So, give us a call at <b>(310) 328-4541</b></p>
