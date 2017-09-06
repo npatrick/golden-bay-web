@@ -3,7 +3,7 @@ import Navigation from './navigation.react.jsx';
 import Home from './home.react.jsx';
 import About from './about.react.jsx';
 import Services from './services.react.jsx';
-import Client from './client.react.jsx';
+// import Client from './client.react.jsx';
 import Team from './team.react.jsx';
 import Contact from './contact.react.jsx';
 import Footer from './footer.react.jsx';
@@ -17,7 +17,6 @@ export default class App extends Component {
 				<Home />
 				<About />
 				<Services />
-				<Client />
 				<Team />
 				<Contact />
 				<Footer />
